@@ -34,5 +34,11 @@ module.exports = {
         publicPath: "/",
         hotOnly: true,
         open: true,
+        proxy: {
+            "/api": {
+                target: "http://localhost:5000",
+                secure: false,
+            },
+        },
     },
 };
