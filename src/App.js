@@ -5,11 +5,24 @@ import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Alert from "./components/layout/Alert";
+import Dashboard from "./components/dashboard/Dashboard";
+import Uploads from "./components/uploads/Uploads";
+
+import PrivateRoute from "./components/route/PrivateRoute";
 
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import { loadUser } from "./redux/actions/auth";
-import setAuthToken from "./utils/setAuthToken";
+import setAuthToken from "./components/utils/setAuthToken";
+
+import { library, dom } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faMedium } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fas, faGithub, faMedium);
+
+// Kicks off the process of finding <i> tags and replacing with <svg>
+dom.watch();
 
 import "./resources/css/App.css";
 
@@ -29,7 +42,7 @@ const App = () => {
                     <Navbar />
                     <Route exact path='/' component={Landing} />
                     <section className='container'>
-                        <Alert />
+                        {/* <Alert /> */}
                         <Switch>
                             <Route
                                 exact
@@ -37,6 +50,12 @@ const App = () => {
                                 component={Register}
                             />
                             <Route exact path='/login' component={Login} />
+                            <Route exact path='/uploads' component={Uploads} />
+                            <PrivateRoute
+                                exact
+                                path='/dashboard'
+                                component={Dashboard}
+                            />
                         </Switch>
                     </section>
                 </Fragment>

@@ -11,7 +11,7 @@ import {
     CLEAR_PROFILE,
 } from "./types";
 
-import setAuthToken from "../../utils/setAuthToken";
+import setAuthToken from "../../components/utils/setAuthToken";
 
 // Load User
 export const loadUser = () => async dispatch => {
