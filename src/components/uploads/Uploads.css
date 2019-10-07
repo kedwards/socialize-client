@@ -5,10 +5,10 @@ body {
     margin: 0px;
 }
 
-.container {
+.containerU {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     justify-content: space-around;
 }
 

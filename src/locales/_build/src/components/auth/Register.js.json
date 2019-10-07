@@ -1,0 +1,42 @@
+{
+  "Sign Up": {
+    "origin": [
+      [
+        "src/components/auth/Register.js",
+        39
+      ]
+    ]
+  },
+  "Create Your Account": {
+    "origin": [
+      [
+        "src/components/auth/Register.js",
+        43
+      ]
+    ]
+  },
+  "This site uses Gravatar so if you want a profile image, use a Gravatar email": {
+    "origin": [
+      [
+        "src/components/auth/Register.js",
+        65
+      ]
+    ]
+  },
+  "Already have an account?": {
+    "origin": [
+      [
+        "src/components/auth/Register.js",
+        98
+      ]
+    ]
+  },
+  "Sign In": {
+    "origin": [
+      [
+        "src/components/auth/Register.js",
+        100
+      ]
+    ]
+  }
+}

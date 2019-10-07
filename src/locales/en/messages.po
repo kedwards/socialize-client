@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2019-10-02 20:20-0600\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/profile-form/CreateProfile.js:63
+#: src/components/profile-form/EditProfile.js:91
+msgid "* = required field"
+msgstr "* = required field"
+
+#: src/components/profile-form/CreateProfile.js:74
+#: src/components/profile-form/EditProfile.js:102
+msgid "* Select Professional Status"
+msgstr "* Select Professional Status"
+
+#: src/components/profile-form/AddExperience.js:37
+msgid "Add An Experience"
+msgstr ""
+
+#: src/components/profile-form/CreateProfile.js:225
+#: src/components/profile-form/EditProfile.js:253
+msgid "Add Social Network Links"
+msgstr "Add Social Network Links"
+
+#: src/components/profile-form/AddEducation.js:37
+msgid "Add Your Education"
+msgstr ""
+
+#: src/components/profile-form/AddExperience.js:41
+msgid "Add any developer/programming positions that you have had in the past"
+msgstr ""
+
+#: src/components/profile-form/AddEducation.js:41
+msgid "Add any school or bootcamp that you have attended"
+msgstr ""
+
+#: src/components/auth/Register.js:98
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+#: src/components/profile-form/CreateProfile.js:176
+#: src/components/profile-form/EditProfile.js:204
+msgid "City & state suggested (eg. Boston, MA)"
+msgstr "City & state suggested (eg. Boston, MA)"
+
+#: src/components/profile-form/CreateProfile.js:150
+#: src/components/profile-form/EditProfile.js:178
+msgid "Could be your own company or one you work for"
+msgstr "Could be your own company or one you work for"
+
+#: src/components/profile-form/CreateProfile.js:164
+#: src/components/profile-form/EditProfile.js:192
+msgid "Could be your own or a company website"
+msgstr "Could be your own or a company website"
+
+#: src/components/dashboard/Dashboard.js:43
+msgid "Create Profile"
+msgstr "Create Profile"
+
+#: src/components/auth/Register.js:43
+msgid "Create Your Account"
+msgstr "Create Your Account"
+
+#: src/components/profile-form/CreateProfile.js:54
+#: src/components/profile-form/EditProfile.js:82
+msgid "Create Your Profile"
+msgstr "Create Your Profile"
+
+#: src/components/profile-form/AddExperience.js:105
+msgid "Current Job"
+msgstr ""
+
+#: src/components/profile-form/AddEducation.js:104
+msgid "Current School"
+msgstr ""
+
+#: src/components/dashboard/Dashboard.js:24
+#: src/components/layout/Navbar.js:43
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/components/layout/Navbar.js:85
+msgid "DevConnector"
+msgstr "DevConnector"
+
+#: src/components/profile-form/CreateProfile.js:81
+#: src/components/profile-form/EditProfile.js:109
+msgid "Developer"
+msgstr "Developer"
+
+#: src/components/layout/Navbar.js:27
+msgid "Developers"
+msgstr "Developers"
+
+#: src/components/auth/Login.js:65
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+#: src/components/profile-form/AddEducation.js:83
+msgid "From Date"
+msgstr ""
+
+#: src/components/profile-form/CreateProfile.js:136
+#: src/components/profile-form/EditProfile.js:164
+msgid "Give us an idea of where you are at in your career"
+msgstr "Give us an idea of where you are at in your career"
+
+#: src/components/profile-form/AddEducation.js:129
+#: src/components/profile-form/AddExperience.js:132
+#: src/components/profile-form/CreateProfile.js:314
+#: src/components/profile-form/EditProfile.js:342
+msgid "Go Back"
+msgstr "Go Back"
+
+#: src/components/profile-form/CreateProfile.js:203
+#: src/components/profile-form/EditProfile.js:231
+msgid "If you want your latest repos and a Github link, include your username"
+msgstr "If you want your latest repos and a Github link, include your username"
+
+#: src/components/profile-form/CreateProfile.js:116
+#: src/components/profile-form/EditProfile.js:144
+msgid "Instructor or Teacher"
+msgstr "Instructor or Teacher"
+
+#: src/components/profile-form/CreateProfile.js:123
+#: src/components/profile-form/EditProfile.js:151
+msgid "Intern"
+msgstr "Intern"
+
+#: src/components/profile-form/CreateProfile.js:88
+#: src/components/profile-form/EditProfile.js:116
+msgid "Junior Developer"
+msgstr "Junior Developer"
+
+#: src/components/profile-form/CreateProfile.js:58
+#: src/components/profile-form/EditProfile.js:86
+msgid "Let's get some information to make your profile stand out"
+msgstr "Let's get some information to make your profile stand out"
+
+#: src/components/layout/Navbar.js:73
+msgid "Login"
+msgstr "Login"
+
+#: src/components/layout/Navbar.js:51
+msgid "Logout"
+msgstr "Logout"
+
+#: src/components/profile-form/CreateProfile.js:102
+#: src/components/profile-form/EditProfile.js:130
+msgid "Manager"
+msgstr "Manager"
+
+#: src/components/profile-form/CreateProfile.js:228
+#: src/components/profile-form/EditProfile.js:256
+msgid "Optional"
+msgstr "Optional"
+
+#: src/components/profile-form/CreateProfile.js:130
+#: src/components/profile-form/EditProfile.js:158
+msgid "Other"
+msgstr "Other"
+
+#: src/components/profile-form/CreateProfile.js:188
+#: src/components/profile-form/EditProfile.js:216
+msgid "Please use comma separated values (eg. HTML,CSS,JavaScript,PHP)"
+msgstr "Please use comma separated values (eg. HTML,CSS,JavaScript,PHP)"
+
+#: src/components/layout/Navbar.js:65
+msgid "Register"
+msgstr "Register"
+
+#: src/components/profile-form/CreateProfile.js:95
+#: src/components/profile-form/EditProfile.js:123
+msgid "Senior Developer"
+msgstr "Senior Developer"
+
+#: src/components/auth/Login.js:32
+#: src/components/auth/Register.js:100
+msgid "Sign In"
+msgstr "Sign In"
+
+#: src/components/auth/Login.js:36
+msgid "Sign Into Your Account"
+msgstr "Sign Into Your Account"
+
+#: src/components/auth/Login.js:67
+#: src/components/auth/Register.js:39
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: src/components/profile-form/CreateProfile.js:109
+#: src/components/profile-form/EditProfile.js:137
+msgid "Student or Learning"
+msgstr "Student or Learning"
+
+#: src/components/profile-form/CreateProfile.js:216
+#: src/components/profile-form/EditProfile.js:244
+msgid "Tell us a little about yourself"
+msgstr "\"\"Tell us a little about yourself"
+
+#: src/components/auth/Register.js:65
+msgid "This site uses Gravatar so if you want a profile image, use a Gravatar email"
+msgstr "This site uses Gravatar so if you want a profile image, use a Gravatar email"
+
+#: src/components/profile-form/AddExperience.js:110
+msgid "To Date"
+msgstr ""
+
+#: src/components/layout/Navbar.js:35
+msgid "Uploads"
+msgstr "Uploads"
+
+#: src/components/dashboard/Dashboard.js:28
+msgid "Welcome {0}"
+msgstr "Welcome {0}"
+
+#: src/components/dashboard/Dashboard.js:37
+msgid "You have not yet setup a profile, please add some info"
+msgstr "You have not yet setup a profile, please add some info"
+
+#: src/components/profile-form/AddEducation.js:44
+#: src/components/profile-form/AddExperience.js:47
+msgid "required-field"
+msgstr ""

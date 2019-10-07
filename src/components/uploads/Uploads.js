@@ -1,14 +1,3 @@
-// import React from "react";
-// import PropTypes from "prop-types";
-
-// const Uploads = props => {
-//     return <div>Uploads</div>;
-// };
-
-// Uploads.propTypes = {};
-
-// export default Uploads;
-
 import React, { Component } from "react";
 import Notifications, { notify } from "react-notify-toast";
 import Spinner from "./Spinner";
@@ -29,16 +18,6 @@ export default class App extends Component {
         uploading: false,
         images: [],
     };
-
-    // componentDidMount() {
-    //     fetch(`${API_URL}/wake-up`).then(res => {
-    //         if (res.ok) {
-    //             return this.setState({ loading: false });
-    //         }
-    //         const msg = "Something is went wrong with Heroku";
-    //         this.toast(msg, "custom", 2000, toastColor);
-    //     });
-    // }
 
     toast = notify.createShowQueue();
 
@@ -136,10 +115,10 @@ export default class App extends Component {
         };
 
         return (
-            <div className='container'>
+            <div className='containerU'>
                 <Notifications />
                 <div className='buttons'>{content()}</div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }

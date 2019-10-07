@@ -1,9 +1,10 @@
 import React, { Fragment, useState } from "react";
 import { connect } from "react-redux";
 import { Link, Redirect } from "react-router-dom";
+import PropTypes from "prop-types";
+import { Trans } from "@lingui/macro";
 import { setAlert } from "../../redux/actions/alert";
 import { register } from "../../redux/actions/auth";
-import PropTypes from "prop-types";
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
     const [formData, setFormData] = useState({
@@ -34,9 +35,12 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
     return (
         <Fragment>
-            <h1 className='large text-primary'>Sign Up</h1>
+            <h1 className='large text-primary'>
+                <Trans>Sign Up</Trans>
+            </h1>
             <p className='lead'>
-                <i className='fas fa-user'></i> Create Your Account
+                <i className='fas fa-user'></i>{" "}
+                <Trans>Create Your Account</Trans>
             </p>
             <form className='form' onSubmit={e => onSubmit(e)}>
                 <div className='form-group'>
@@ -58,8 +62,10 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                         onChange={e => onChange(e)}
                     />
                     <small className='form-text'>
-                        This site uses Gravatar so if you want a profile image,
-                        use a Gravatar email
+                        <Trans>
+                            This site uses Gravatar so if you want a profile
+                            image, use a Gravatar email
+                        </Trans>
                     </small>
                 </div>
                 <div className='form-group'>
@@ -89,7 +95,10 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                 />
             </form>
             <p className='my-1'>
-                Already have an account? <Link to='/login'>Sign In</Link>
+                <Trans>Already have an account?</Trans>{" "}
+                <Link to='/login'>
+                    <Trans>Sign In</Trans>
+                </Link>
             </p>
         </Fragment>
     );

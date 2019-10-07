@@ -32,6 +32,7 @@ module.exports = {
         port: 3000,
         inline: true,
         publicPath: "/",
+        historyApiFallback: true,
         hotOnly: true,
         open: true,
         proxy: {

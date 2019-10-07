@@ -1,0 +1,34 @@
+{
+  "Dashboard": {
+    "origin": [
+      [
+        "src/components/dashboard/Dashboard.js",
+        24
+      ]
+    ]
+  },
+  "Welcome {0}": {
+    "origin": [
+      [
+        "src/components/dashboard/Dashboard.js",
+        28
+      ]
+    ]
+  },
+  "You have not yet setup a profile, please add some info": {
+    "origin": [
+      [
+        "src/components/dashboard/Dashboard.js",
+        37
+      ]
+    ]
+  },
+  "Create Profile": {
+    "origin": [
+      [
+        "src/components/dashboard/Dashboard.js",
+        43
+      ]
+    ]
+  }
+}

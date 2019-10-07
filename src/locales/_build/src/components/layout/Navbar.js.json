@@ -1,0 +1,58 @@
+{
+  "Developers": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        27
+      ]
+    ]
+  },
+  "Uploads": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        35
+      ]
+    ]
+  },
+  "Dashboard": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        43
+      ]
+    ]
+  },
+  "Logout": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        51
+      ]
+    ]
+  },
+  "Register": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        65
+      ]
+    ]
+  },
+  "Login": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        73
+      ]
+    ]
+  },
+  "DevConnector": {
+    "origin": [
+      [
+        "src/components/layout/Navbar.js",
+        85
+      ]
+    ]
+  }
+}

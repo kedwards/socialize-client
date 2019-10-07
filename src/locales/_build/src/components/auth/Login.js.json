@@ -1,0 +1,34 @@
+{
+  "Sign In": {
+    "origin": [
+      [
+        "src/components/auth/Login.js",
+        32
+      ]
+    ]
+  },
+  "Sign Into Your Account": {
+    "origin": [
+      [
+        "src/components/auth/Login.js",
+        36
+      ]
+    ]
+  },
+  "Don't have an account?": {
+    "origin": [
+      [
+        "src/components/auth/Login.js",
+        65
+      ]
+    ]
+  },
+  "Sign Up": {
+    "origin": [
+      [
+        "src/components/auth/Login.js",
+        67
+      ]
+    ]
+  }
+}

@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Link, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import { Trans } from "@lingui/macro";
 import { login } from "../../redux/actions/auth";
 
 const Login = ({ login, isAuthenticated }) => {
@@ -27,9 +28,12 @@ const Login = ({ login, isAuthenticated }) => {
 
     return (
         <Fragment>
-            <h1 className='large text-primary'>Sign In</h1>
+            <h1 className='large text-primary'>
+                <Trans>Sign In</Trans>
+            </h1>
             <p className='lead'>
-                <i className='fas fa-user'></i> Sign Into Your Account
+                <i className='fas fa-user'></i>{" "}
+                <Trans>Sign Into Your Account</Trans>
             </p>
             <form className='form' onSubmit={e => onSubmit(e)}>
                 <div className='form-group'>
@@ -58,7 +62,10 @@ const Login = ({ login, isAuthenticated }) => {
                 />
             </form>
             <p className='my-1'>
-                Don't have an account? <Link to='/register'>Sign Up</Link>
+                <Trans>Don't have an account?</Trans>{" "}
+                <Link to='/register'>
+                    <Trans>Sign Up</Trans>
+                </Link>
             </p>
         </Fragment>
     );
