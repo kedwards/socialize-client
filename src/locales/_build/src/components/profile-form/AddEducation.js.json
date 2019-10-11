@@ -1,0 +1,51 @@
+{
+  "Add Your Education": {
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        37
+      ]
+    ]
+  },
+  "Add any school or bootcamp that you have attended": {
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        41
+      ]
+    ]
+  },
+  "required-field": {
+    "defaults": "* = required field",
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        44
+      ]
+    ]
+  },
+  "From Date": {
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        83
+      ]
+    ]
+  },
+  "Current School": {
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        104
+      ]
+    ]
+  },
+  "Go Back": {
+    "origin": [
+      [
+        "src/components/profile-form/AddEducation.js",
+        129
+      ]
+    ]
+  }
+}

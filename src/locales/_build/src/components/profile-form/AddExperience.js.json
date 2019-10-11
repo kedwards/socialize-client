@@ -1,0 +1,51 @@
+{
+  "Add An Experience": {
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        37
+      ]
+    ]
+  },
+  "Add any developer/programming positions that you have had in the past": {
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        41
+      ]
+    ]
+  },
+  "required-field": {
+    "defaults": "* = required field",
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        47
+      ]
+    ]
+  },
+  "Current Job": {
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        105
+      ]
+    ]
+  },
+  "To Date": {
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        110
+      ]
+    ]
+  },
+  "Go Back": {
+    "origin": [
+      [
+        "src/components/profile-form/AddExperience.js",
+        132
+      ]
+    ]
+  }
+}

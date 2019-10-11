@@ -1,0 +1,178 @@
+{
+  "Create Your Profile": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        82
+      ]
+    ]
+  },
+  "Let's get some information to make your profile stand out": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        86
+      ]
+    ]
+  },
+  "* = required field": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        91
+      ]
+    ]
+  },
+  "* Select Professional Status": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        102
+      ]
+    ]
+  },
+  "Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        109
+      ]
+    ]
+  },
+  "Junior Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        116
+      ]
+    ]
+  },
+  "Senior Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        123
+      ]
+    ]
+  },
+  "Manager": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        130
+      ]
+    ]
+  },
+  "Student or Learning": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        137
+      ]
+    ]
+  },
+  "Instructor or Teacher": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        144
+      ]
+    ]
+  },
+  "Intern": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        151
+      ]
+    ]
+  },
+  "Other": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        158
+      ]
+    ]
+  },
+  "Give us an idea of where you are at in your career": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        164
+      ]
+    ]
+  },
+  "Could be your own company or one you work for": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        178
+      ]
+    ]
+  },
+  "Could be your own or a company website": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        192
+      ]
+    ]
+  },
+  "City & state suggested (eg. Boston, MA)": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        204
+      ]
+    ]
+  },
+  "Please use comma separated values (eg. HTML,CSS,JavaScript,PHP)": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        216
+      ]
+    ]
+  },
+  "If you want your latest repos and a Github link, include your username": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        231
+      ]
+    ]
+  },
+  "Tell us a little about yourself": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        244
+      ]
+    ]
+  },
+  "Add Social Network Links": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        253
+      ]
+    ]
+  },
+  "Optional": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        256
+      ]
+    ]
+  },
+  "Go Back": {
+    "origin": [
+      [
+        "src/components/profile-form/EditProfile.js",
+        342
+      ]
+    ]
+  }
+}

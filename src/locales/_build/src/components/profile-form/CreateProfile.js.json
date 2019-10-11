@@ -1,0 +1,178 @@
+{
+  "Create Your Profile": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        54
+      ]
+    ]
+  },
+  "Let's get some information to make your profile stand out": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        58
+      ]
+    ]
+  },
+  "* = required field": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        63
+      ]
+    ]
+  },
+  "* Select Professional Status": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        74
+      ]
+    ]
+  },
+  "Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        81
+      ]
+    ]
+  },
+  "Junior Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        88
+      ]
+    ]
+  },
+  "Senior Developer": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        95
+      ]
+    ]
+  },
+  "Manager": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        102
+      ]
+    ]
+  },
+  "Student or Learning": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        109
+      ]
+    ]
+  },
+  "Instructor or Teacher": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        116
+      ]
+    ]
+  },
+  "Intern": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        123
+      ]
+    ]
+  },
+  "Other": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        130
+      ]
+    ]
+  },
+  "Give us an idea of where you are at in your career": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        136
+      ]
+    ]
+  },
+  "Could be your own company or one you work for": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        150
+      ]
+    ]
+  },
+  "Could be your own or a company website": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        164
+      ]
+    ]
+  },
+  "City & state suggested (eg. Boston, MA)": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        176
+      ]
+    ]
+  },
+  "Please use comma separated values (eg. HTML,CSS,JavaScript,PHP)": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        188
+      ]
+    ]
+  },
+  "If you want your latest repos and a Github link, include your username": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        203
+      ]
+    ]
+  },
+  "Tell us a little about yourself": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        216
+      ]
+    ]
+  },
+  "Add Social Network Links": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        225
+      ]
+    ]
+  },
+  "Optional": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        228
+      ]
+    ]
+  },
+  "Go Back": {
+    "origin": [
+      [
+        "src/components/profile-form/CreateProfile.js",
+        314
+      ]
+    ]
+  }
+}
