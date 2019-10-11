@@ -349,6 +349,10 @@ button {
     text-align: center;
 }
 
+.landing-inner > h1.x-large {
+    margin: 175px 0 auto;
+}
+
 /* Profiles Page */
 .profile {
     display: grid;

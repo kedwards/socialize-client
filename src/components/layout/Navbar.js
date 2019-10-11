@@ -29,6 +29,14 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
                 </Link>
             </li>
             <li>
+                <Link to='/posts'>
+                    <i className='fas fa-blog' />{" "}
+                    <span className='hide-sm'>
+                        <Trans>Posts</Trans>
+                    </span>
+                </Link>
+            </li>
+            <li>
                 <Link to='/uploads'>
                     <i className='fas fa-upload'></i>{" "}
                     <span className='hide-sm'>
@@ -58,6 +66,14 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     const guestLinks = (
         <ul>
             <li>{/* <Locales /> */}</li>
+            <li>
+                <Link to='/profiles'>
+                    <i className='fas fa-user' />{" "}
+                    <span className='hide-sm'>
+                        <Trans>Developers</Trans>
+                    </span>
+                </Link>
+            </li>
             <li>
                 <Link to='/register'>
                     <i className='fas fa-user'></i>{" "}

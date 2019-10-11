@@ -2,17 +2,7 @@ import React, { Component, Fragment, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
-import Register from "./components/auth/Register";
-import Login from "./components/auth/Login";
-import Alert from "./components/layout/Alert";
-import Dashboard from "./components/dashboard/Dashboard";
-import Uploads from "./components/uploads/Uploads";
-import CreateProfile from "./components/profile-form/CreateProfile";
-import EditProfile from "./components/profile-form/EditProfile";
-import AddExperience from "./components/profile-form/AddExperience";
-import AddEducation from "./components/profile-form/AddEducation";
-import PrivateRoute from "./components/route/PrivateRoute";
-
+import Routes from "./components/Route/Routes";
 import { I18nProvider } from "@lingui/react";
 import en from "./locales/en/messages";
 import fr from "./locales/fr/messages";
@@ -49,44 +39,10 @@ const App = () => {
             <Router>
                 <Fragment>
                     <Navbar />
-                    <Route exact path='/' component={Landing} />
-                    <section className='container'>
-                        <Alert />
-                        <Switch>
-                            <Route
-                                exact
-                                path='/register'
-                                component={Register}
-                            />
-                            <Route exact path='/login' component={Login} />
-                            <Route exact path='/uploads' component={Uploads} />
-                            <PrivateRoute
-                                exact
-                                path='/dashboard'
-                                component={Dashboard}
-                            />
-                            <Route
-                                exact
-                                path='/create-profile'
-                                component={CreateProfile}
-                            />
-                            <Route
-                                exact
-                                path='/edit-profile'
-                                component={EditProfile}
-                            />
-                            <Route
-                                exact
-                                path='/add-experience'
-                                component={AddExperience}
-                            />
-                            <Route
-                                exact
-                                path='/add-education'
-                                component={AddEducation}
-                            />
-                        </Switch>
-                    </section>
+                    <Switch>
+                        <Route exact path='/' component={Landing} />
+                        <Route component={Routes} />
+                    </Switch>
                 </Fragment>
             </Router>
         </Provider>
