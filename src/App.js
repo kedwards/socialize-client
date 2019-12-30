@@ -2,7 +2,7 @@ import React, { Component, Fragment, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
-import Routes from "./components/Route/Routes";
+import Routes from "./components/route/Routes";
 import { I18nProvider } from "@lingui/react";
 import en from "./locales/en/messages";
 import fr from "./locales/fr/messages";
