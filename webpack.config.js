@@ -5,7 +5,7 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     entry: ["webpack/hot/dev-server", "./src/index.js"],
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         filename: "[name].bundle.js",
         chunkFilename: "[id].chunk.js",
         sourceMapFilename: "[name].map",
@@ -35,11 +35,18 @@ module.exports = {
         historyApiFallback: true,
         hotOnly: true,
         open: true,
+        host : "0.0.0.0",
         proxy: {
             "/api": {
-                target: "http://localhost:5000",
-                secure: false,
+                host: "api",
+                protocol: "http:",
+                port: 5000,
+                target: "http://api:5000",
             },
+            ignorePath: true,
+            changeOrigin: true,
+            secure: false
+
         },
     },
 };

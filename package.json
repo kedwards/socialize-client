@@ -6,6 +6,7 @@
     "scripts": {
         "test": "jest",
         "start": "webpack-dev-server",
+        "build": "webpack --mode production",
         "add-locale": "lingui add-locale",
         "extract": "lingui extract",
         "compile": "lingui compile"
